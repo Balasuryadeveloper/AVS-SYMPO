@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<style>
+    #navigation li a:hover {
+        background-color: skyblue;
+        color: #ffffff;
+    }
+    #navigation li a:active {
+        background: skyblue;
+        color: #ffffff;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg shadow-lg p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <b class='text-primary'>EDU TECH</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="navigation">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="enroll.html">Enroll</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="text-primary">Python</h3><hr>
+            </div>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-md-12">
+                <div class="card p-3 shadow-lg">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/kqtD5dpn9C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p align="justify">
+                        <p>Some Python expressions are similar to those in languages such as C and Java, while some are not:
+
+                            Addition, subtraction, and multiplication are the same, but the behavior of division differs. There are two types of divisions in Python: floor division (or integer division) // and floating-point/division.[93] Python also uses the ** operator for exponentiation.
+                            The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication.
+                            The syntax :=, called the "walrus operator", was introduced in Python 3.8. It assigns values to variables as part of a larger expression.[96]
+                            In Python, == compares by value, versus Java, which compares numerics by value[97] and objects by reference. Python's is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c.
+                            Python uses and, or, and not as boolean operators rather than the symbolic &&, ||, ! in Java and C.
+                            Python has a type of expression called a list comprehension, as well as a more general expression called a generator expression.
+                            Anonymous functions are implemented using lambda expressions; however, there may be only one expression in each body.</p>
+<p>
+    Conditional expressions are written as x if c else y (different in order of operands from the c ? x : y operator common to many other languages).
+    Python makes a distinction between lists and tuples. Lists are written as [1, 2, 3], are mutable, and cannot be used as the keys of dictionaries (dictionary keys must be immutable in Python). Tuples, written as (1, 2, 3), are immutable and thus can be used as keys of dictionaries, provided all of the tuple's elements are immutable. The + operator can be used to concatenate two tuples, which does not directly modify their contents, but produces a new tuple containing the elements of both. Thus, given the variable t initially equal to (1, 2, 3), executing t = t + (4, 5) first evaluates t + (4, 5), which yields (1, 2, 3, 4, 5), which is then assigned back to t—thereby effectively "modifying the contents" of t while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts.[100]
+    Python features sequence unpacking where multiple expressions, each evaluating to anything that can be assigned (to a variable, writable property, etc.) are associated in an identical manner to that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on the right-hand side of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left.
+    </p>
+    <div class="col-md-12">
+        <a href="home.html" class="btn btn-primary float-end">Back</a>
+    </div>  
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+    <footer class="shadow-lg p-3 mt-2">
+        <small>@ Balasurya ( <b>Gnanamani College Of Technology - B.Tech - AI & DS</b> )</small>
+    </footer>
+</body>
+</html>
